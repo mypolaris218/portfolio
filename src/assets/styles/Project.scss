@@ -9,6 +9,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
+    img {
+        height: 380px;
+    }
 }
   
 .projects-container .projects-grid .project {
