@@ -1,10 +1,10 @@
 import React, { useRef, useState } from 'react';
 import '../assets/styles/Contact.scss';
-// import emailjs from '@emailjs/browser';
-import Box from '@mui/material/Box';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import TextField from '@mui/material/TextField';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 function Contact() {
 
@@ -53,8 +53,12 @@ function Contact() {
     <div id="contact">
       <div className="items-container">
         <div className="contact_wrapper">
-          <h1>Contact Me</h1>
-          <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
+         <h1>Contact Me</h1>
+         <a href="mailto:kevanqing@gmail.com">
+          <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+          <p>kevanqing@gmail.com</p>
+         </a>
+          {/*  <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
           <Box
             ref={form}
             component="form"
@@ -106,7 +110,7 @@ function Contact() {
             <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
               Send
             </Button>
-          </Box>
+          </Box> */}
         </div>
       </div>
     </div>

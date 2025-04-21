@@ -39,7 +39,7 @@ function Project() {
             </div> 
             <div className="project">
                 <a href="https://www.ey.com/en_us/services/consulting/cognistreamer" target="_blank" rel="noreferrer"><img src={upstock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.ey.com/en_us/services/consulting/cognistreamer" target="_blank" rel="noreferrer"><h2>EY</h2></a>
+                <a href="https://www.ey.com/en_us/services/consulting/cognistreamer" target="_blank" rel="noreferrer"><h2>Upstock</h2></a>
                 <p>Completely redesigned and upgraded a new frontend for an employee incentive platform.</p>
             </div>
             <div className="project">
