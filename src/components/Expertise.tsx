@@ -141,17 +141,17 @@ const expertise = [
     },
     { title: "Mobile Development", 
       icon: faMobile, 
-      description: "Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live." ,
+      description: "Built and maintained cross-platform and native mobile applications using modern development stacks (e.g., React Native, Flutter, Swift, Kotlin). Successfully deployed to App Store and Google Play, achieving over 15,000 downloads and maintaining a 4.6+ star rating. " ,
       labels: labelsMobile
     },
     { title: "Cloud Platforms", 
       icon: faCloud, 
-      description: "Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live." ,
+      description: "Experienced in deploying and managing applications across leading cloud platforms including AWS, Azure, and Google Cloud. Proficient in leveraging cloud-native services for scalable, secure, and high-performance solutions." ,
       labels: labelsCloudPlatfoms
     },
     { title: "DataBase", 
       icon: faDatabase, 
-      description: "Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live." ,
+      description: "Skilled in designing, implementing, and optimizing relational and NoSQL databases, including MySQL, PostgreSQL, MongoDB, and Firebase. Experienced in data modeling, performance tuning, and ensuring data security across scalable applications." ,
       labels: labelDataBase
     },
     { 
