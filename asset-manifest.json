@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.52762df1.css",
-    "main.js": "/portfolio/static/js/main.6223f00f.js",
+    "main.css": "/portfolio/static/css/main.f92abb96.css",
+    "main.js": "/portfolio/static/js/main.f3e83444.js",
     "static/js/453.b05d8aa5.chunk.js": "/portfolio/static/js/453.b05d8aa5.chunk.js",
-    "static/media/mock10.png": "/portfolio/static/media/mock10.2d05b02ba569a430a255.png",
-    "static/media/mock09.png": "/portfolio/static/media/mock09.e18677ccfc932e52d754.png",
-    "static/media/mock08.png": "/portfolio/static/media/mock08.13f46873fdbd382f4b76.png",
-    "static/media/mock04.png": "/portfolio/static/media/mock04.f7b5679efade992a078c.png",
+    "static/media/me.jpg": "/portfolio/static/media/me.be0c8279c5e4b7deaef4.jpg",
+    "static/media/people-01.png": "/portfolio/static/media/people-01.43d14242c5d47c2482ce.png",
+    "static/media/omega-01.png": "/portfolio/static/media/omega-01.93106378bc6c20666d19.png",
+    "static/media/ey-04.png": "/portfolio/static/media/ey-04.0de44b2e7cd6651563d9.png",
+    "static/media/tune-01.png": "/portfolio/static/media/tune-01.7bd59a305c37357c84d3.png",
+    "static/media/opticus-01.png": "/portfolio/static/media/opticus-01.7de46f03600e55796114.png",
     "static/media/bg-light.png": "/portfolio/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/mock07.png": "/portfolio/static/media/mock07.3f1110f482232b33c6a2.png",
-    "static/media/mock05.png": "/portfolio/static/media/mock05.4faafa70d200d1519a34.png",
-    "static/media/mock06.png": "/portfolio/static/media/mock06.ea816617e0d0fa0f63ca.png",
     "static/media/bg-dark.png": "/portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/mock01.png": "/portfolio/static/media/mock01.61bd486a54bf6e17ee5a.png",
-    "static/media/mock02.png": "/portfolio/static/media/mock02.bced48ae9cdda3acf1a3.png",
-    "static/media/mock03.png": "/portfolio/static/media/mock03.a4600719e0b5d2a3155b.png",
+    "static/media/comcast-01.png": "/portfolio/static/media/comcast-01.209c31dfa0c680f2bfab.png",
+    "static/media/shipmate-01.png": "/portfolio/static/media/shipmate-01.47877e528515319230bf.png",
+    "static/media/marketful-01.png": "/portfolio/static/media/marketful-01.64c5346a5b1bcef66ec6.png",
+    "static/media/victiv-01.png": "/portfolio/static/media/victiv-01.2318757e8406e24cff40.png",
+    "static/media/upstock-01.png": "/portfolio/static/media/upstock-01.0488e6ab35534162df68.png",
     "index.html": "/portfolio/index.html",
-    "main.52762df1.css.map": "/portfolio/static/css/main.52762df1.css.map",
-    "main.6223f00f.js.map": "/portfolio/static/js/main.6223f00f.js.map",
+    "main.f92abb96.css.map": "/portfolio/static/css/main.f92abb96.css.map",
+    "main.f3e83444.js.map": "/portfolio/static/js/main.f3e83444.js.map",
     "453.b05d8aa5.chunk.js.map": "/portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52762df1.css",
-    "static/js/main.6223f00f.js"
+    "static/css/main.f92abb96.css",
+    "static/js/main.f3e83444.js"
   ]
 }
