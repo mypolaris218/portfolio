@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import TextField from '@mui/material/TextField';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 function Contact() {
 
@@ -54,10 +55,18 @@ function Contact() {
       <div className="items-container">
         <div className="contact_wrapper">
          <h1>Contact Me</h1>
-         <a href="mailto:kevanqing@gmail.com">
-          <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
-          <p>kevanqing@gmail.com</p>
-         </a>
+         <div className='contact-info'>
+          <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+          <a href="mailto:kevanqing@gmail.com">
+            <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+            kevanqing@gmail.com
+          </a>
+          {/* <br></br> */}
+          <a href="tel:+16193205712">
+            <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
+            +1 (619) 320-5712
+          </a>
+         </div>
           {/*  <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
           <Box
             ref={form}
