@@ -6,7 +6,14 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
 
-const careers = [
+type career = { 
+  title: string;
+  company: string;
+  date: string;
+  description: string;
+}
+
+const careers: career[] = [
   {
     title: "Lead Software Engineer",
     company: "Practice AI",
@@ -35,7 +42,7 @@ const careers = [
     title: "Full Stack Engineer",
     company: "Amazon",
     date: "MAY 2017 - JUL 2019",
-    description: "Automation, Data Governance, Statistical Analysis",
+    description: "JavaScript, iOS development, improving internal AWS services",
   },
 ];
 
@@ -48,6 +55,7 @@ function Timeline() {
           {
             careers.map((career, index) =>           
               <VerticalTimelineElement
+              key={index}
               className="vertical-timeline-element--work"
               contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
               contentArrowStyle={{ borderRight: '7px solid  white' }}
