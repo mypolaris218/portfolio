@@ -102,8 +102,11 @@ const projectContents: project[] = [
 ]
 
 function Project() {
-    return(
-        <Grid container sx={{justifyContent:'center'}} spacing={2} className="project-grid" id="projects">
+    return(     
+          <Grid container sx={{ justifyContent:'center' }} spacing={2} className="project-grid" id="projects">
+            <Grid container item xs={12} ml={15}>
+                <Typography variant="h3" gutterBottom> Case Study</Typography>
+            </Grid>
             {
                 projectContents.map((project, index) => (
                         <Grid item xs={12} md={5} sx={{mr: 2, ml: 2 }} key={index}>
@@ -140,13 +143,11 @@ function Project() {
                                     {project.description}
                                 </Typography>
                                 </Box>
-
                             </Link>
                     </Grid>
                 ))
             }
-        </Grid>
-        
+        </Grid>        
     );
 }
 
