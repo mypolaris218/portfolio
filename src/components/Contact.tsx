@@ -1,30 +1,30 @@
 import React, { useRef, useState } from 'react';
 import '../assets/styles/Contact.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Button from '@mui/material/Button';
-import SendIcon from '@mui/icons-material/Send';
-import TextField from '@mui/material/TextField';
+// import Button from '@mui/material/Button';
+// import SendIcon from '@mui/icons-material/Send';
+// import TextField from '@mui/material/TextField';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 function Contact() {
 
-  const [name, setName] = useState<string>('');
-  const [email, setEmail] = useState<string>('');
-  const [message, setMessage] = useState<string>('');
+  // const [name, setName] = useState<string>('');
+  // const [email, setEmail] = useState<string>('');
+  // const [message, setMessage] = useState<string>('');
 
-  const [nameError, setNameError] = useState<boolean>(false);
-  const [emailError, setEmailError] = useState<boolean>(false);
-  const [messageError, setMessageError] = useState<boolean>(false);
+  // const [nameError, setNameError] = useState<boolean>(false);
+  // const [emailError, setEmailError] = useState<boolean>(false);
+  // const [messageError, setMessageError] = useState<boolean>(false);
 
-  const form = useRef();
+  // const form = useRef();
 
-  const sendEmail = (e: any) => {
-    e.preventDefault();
+  // const sendEmail = (e: any) => {
+  //   e.preventDefault();
 
-    setNameError(name === '');
-    setEmailError(email === '');
-    setMessageError(message === '');
+  //   setNameError(name === '');
+  //   setEmailError(email === '');
+  //   setMessageError(message === '');
 
     /* Uncomment below if you want to enable the emailJS */
 
@@ -48,7 +48,7 @@ function Contact() {
     //   setEmail('');
     //   setMessage('');
     // }
-  };
+  // };
 
   return (
     <div id="contact">
