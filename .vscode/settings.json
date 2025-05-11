@@ -1,0 +1,9 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": false,
+  "eslint.validate": ["javascript", "javascriptreact"],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+}
+
