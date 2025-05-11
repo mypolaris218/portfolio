@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
-import { faCloud, faDatabase, faMobile, faMobileAndroid } from "@fortawesome/free-solid-svg-icons";
-import { title } from "process";
+import { faCloud, faDatabase, faMobile } from "@fortawesome/free-solid-svg-icons";
+// import { title } from "process";
 
 const labelsFirst = [
     "TypeScript",
