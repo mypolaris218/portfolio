@@ -21,6 +21,9 @@
     "@types/react-dom": "^18.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-ga4": "^2.1.0",
+    "react-gtm-module": "^2.0.11",
+    "react-router-dom": "^7.6.0",
     "react-scripts": "5.0.1",
     "react-slick": "^0.30.3",
     "react-vertical-timeline-component": "^3.6.0",
@@ -57,6 +60,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.26.0",
+    "@types/react-gtm-module": "^2.0.4",
     "@types/react-slick": "^0.23.13",
     "@types/react-vertical-timeline-component": "^3.3.6",
     "eslint": "^8.57.1",
